@@ -1,0 +1,35 @@
+.image-text {
+  display: flex;
+  align-items: flex-start;
+  gap: 1em;
+  margin: 2em 0;
+}
+
+.image-text img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.image-text .text {
+  flex: 1;
+}
+
+/* Responsive fix for smaller screens */
+@media (max-width: 768px) {
+  .image-text {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .image-text img {
+    max-width: 100%;
+  }
+
+  .image-text .text {
+    width: 100%;
+  }
+}
+
