@@ -42,7 +42,7 @@ From here, you are free to edit the various markdown files, the header.html, foo
 
 Basically, whenever you would push a change to your remote repo, [GitHub Actions](https://github.com/features/actions) automatically tests that the site builds correctly, and then deploys it to GitHub Pages for hosting. This means that in order to write a new post or update the site, all one must do is make changes to their local repo and push it to remote.
 
-You can see an example in my [`.github/workflows/pages.yml`](https://github.com/weston-bish/weston-bish.github.io/blob/main/.github/workflows/pages.yml) for the configuration I used to build and deploy this site.
+You can see an example in my [.github/workflows/pages.yml](https://github.com/weston-bish/weston-bish.github.io/blob/main/.github/workflows/pages.yml) for the configuration I used to build and deploy this site.
 
 From there, all that needs to be done is to configure GitHub Pages to use GitHub Actions as source. From your GitHub repo, navigate to "Settings -> Pages" and set "Source" to "GitHub Actions". That's it.
 
@@ -58,4 +58,5 @@ If you would like to use a custom URL rather than a subdomain of github.io, this
 ---
 
 That's all you need to host your own website! Thank you for reading and Godspeed.
+
 _-Weston_
