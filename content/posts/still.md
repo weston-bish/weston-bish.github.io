@@ -32,13 +32,29 @@ It is easy to use still to generate a website of your own and host it on [GitHub
 
 Go to the [still repo](https://github.com/weston-bish/still) and click on "Use this template" followed by "Create a new repository", which will preconfigure your own still repo with pre-configured files and the still project structure.
 
-From here, you are free to edit the various markdown files, the header.html, footer.html, and style.css.If you would like, you may configure the necessary global variables in `still.py` for optional RSS feed generation.
+From here, you are free to edit the various markdown files, the header.html, footer.html, and style.css. If you would like, you may configure the necessary global variables in `still.py` for optional RSS feed generation.
 
 ### 2. Configure GitHub Actions for CI/CD
 
 > CI/CD (Continuous Integration/Continuous Delivery) is a DevOps practice that automates the software development lifecycle using a pipeline to build, test, and release software more frequently and reliably.
-> Google
+> 
+> -Google AI Overview
 
-Basically, whenever you push a change to your remote repo, GitHub actions will automatically test that the site builds correctly in a container and then deploy it to GitHub Pages. This means that in order to write a new post or update the site, all one must do is make changes to their local repo and push it to remote.
+Basically, whenever you would push a change to your remote repo, [GitHub Actions](https://github.com/features/actions) automatically tests that the site builds correctly, and then deploys it to GitHub Pages for hosting. This means that in order to write a new post or update the site, all one must do is make changes to their local repo and push it to remote.
 
-**WORK IN PROGRESS**
+You can see an example in `.github/workflows/pages.yml` for the configuration I used to build and deploy this site.
+
+From there, all that needs to be done is to configure GitHub Pages to use GitHub Actions as source. From your GitHub repo, navigate to "Settings -> Pages" and set "Source" to "GitHub Actions". That's it.
+
+### 3. A Note on GitHub Pages
+
+In order to use GitHub Pages to host your site for free, there are a few requirements:
+
+1. The repository must be public
+2. The repostiry must be named `YOUR_GITHUB_USERNAME.github.io`
+
+If you would like to use a custom URL rather than a subdomain of github.io, this is also configurable in "Settings -> Pages", although I will not explain that process in this post.
+
+---
+
+That's all you need to host your own website! Thank you for reading and Godspeed. _-Weston_
