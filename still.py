@@ -14,8 +14,8 @@ from datetime import datetime
 
 # Global Variables
 # This first chunk is for RSS generation. Feel free to adjust these values.
-WEBSITE_URL = "https://github.com/weston-bish/still"
-WEBSITE_TITLE = "Still"
+WEBSITE_URL = "https://www.westonbishop.com"
+WEBSITE_TITLE = "WestonBishop.com"
 GENERATE_RSS = True
 FEED_LENGTH = 10
 

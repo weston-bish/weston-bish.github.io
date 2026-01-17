@@ -1,13 +1,13 @@
 <!--
-title: Example Blog Post
-date: 2025-12-25
+title: My First Post
+date: 2025-12-24
 -->
 
-# Example Blog Post
+# Hello World
 
-This is an example blog post.
+This is my blog.
 
 Here is a [link](https://kernel.org).
 
-![A cat](/img/cat.png)
+![A cat](./img/cat.png)
 
