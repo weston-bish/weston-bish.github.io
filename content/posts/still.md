@@ -9,7 +9,7 @@ date: 2026-01-17
 
 **still** is a super-minimal static site generator designed for small personal blogs.
 
-It converts Markdown files into simple HTML pages using Python's `markdown` module and combines them with a header and footer to produce fast, portable, brutally minimal websites.
+It converts Markdown files into simple HTML pages using Python's [Markdown module](https://pypi.org/project/Markdown/) and combines them with a header and footer to produce fast, portable, brutally minimal websites.
 
 The goal of still is to make it as simple as possible to publish a blog.
 
@@ -30,9 +30,9 @@ It is easy to use still to generate a website of your own and host it on [GitHub
 
 ### 1. Generate a New Repository Using Still as Template
 
-Go to the [still repo](https://github.com/weston-bish/still) and click on "Use this template" followed by "Create a new repository", which will preconfigure your own still repo with pre-configured files and the still project structure.
+Go to the [still repo](https://github.com/weston-bish/still) and click on "Use this template" followed by "Create a new repository", which will preconfigure your own still repo with the necessary files and the still project structure.
 
-From here, you are free to edit the various markdown files, the header.html, footer.html, and style.css. If you would like, you may configure the necessary global variables in `still.py` for optional RSS feed generation.
+From here, you are free to edit the various markdown files, as well as the `header.html`, `footer.html`, and `style.css`. If you would like, you may configure the necessary global variables in `still.py` for optional RSS feed generation.
 
 ### 2. Configure GitHub Actions for CI/CD
 
@@ -48,7 +48,7 @@ From there, all that needs to be done is to configure GitHub Pages to use GitHub
 
 ### 3. A Note on GitHub Pages
 
-In order to use GitHub Pages to host your site for free, there are a few requirements:
+In order to use GitHub Pages to host your site for free, there are a couple requirements:
 
 1. The repository must be public.
 2. The repository must be named `YOUR_GITHUB_USERNAME.github.io`
