@@ -12,7 +12,6 @@ In my free time, I like to exercise, produce music, and study philosophy.
 
 - I am on vacation.
 - I am reading the Upanishads and Tragedy & Hope by Carroll Quigley.
-- I am returning to making music.
 
 **Future:**
 
@@ -32,3 +31,7 @@ In my free time, I like to exercise, produce music, and study philosophy.
 - Favorite Anime: Dragon Ball Z
 - Favorite CS Idol: Ken Thompson
 - Lift Totals: Bench 365 lbs, ATG Squat 425 lbs, Deadlift 545 lbs
+
+## Contact
+
+- westonbishop366@gmail.com
