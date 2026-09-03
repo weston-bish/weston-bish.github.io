@@ -1,4 +1,6 @@
-Gospel of Thomas (Translated by Thomas O. Lambdin)
+# Gospel of Thomas
+
+(Translated by Thomas O. Lambdin)
 
 These are the secret sayings which the living Jesus spoke and which Didymos Judas
 Thomas wrote down.

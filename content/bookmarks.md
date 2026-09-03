@@ -13,3 +13,12 @@
 - [Suno: AI Music Generator](https://suno.com/)
 - [World Monitor](https://www.worldmonitor.app)
 
+## Software
+- [Breezy Weather](https://github.com/breezy-weather/breezy-weather)
+- [debian](https://www.debian.org/)
+- [F-Droid](https://f-droid.org/)
+- [GIMP](https://www.gimp.org/)
+- [GrapheneOS](https://grapheneos.org/)
+- [Jellyfin](https://jellyfin.org/)
+- [Kdenlive](https://kdenlive.org/)
+- [qBittorrent](https://www.qbittorrent.org/)
