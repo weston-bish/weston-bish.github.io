@@ -9,17 +9,20 @@ I am a recent Computer Science graduate from UGA, interested in software develop
 In my free time, I like to exercise, produce music, and study philosophy.
 
 **Now:**
+
 - I am on vacation.
 - I am reading the Upanishads and Tragedy & Hope by Carroll Quigley.
 - I am returning to making music.
 
 **Future:**
+
 - Start career in tech
 - Make a new album
 - 5k race
 - Business
 
 **Some fun facts about me:**
+
 - Favorite Song: [Walkabout - Red Hot Chili Peppers](https://youtu.be/HJCWCbkQQp4)
 - Favorite Color: Teal
 - Favorite Movie: The Shining
