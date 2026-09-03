@@ -134,14 +134,13 @@ blockquote {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	text-decoration: none;
 
 	/* Flexbox magic */
 	display: flex;
 	justify-content: flex-start; /* Aligns links to the right. Use 'center' or 'flex-start' as needed */
 	align-items: center;
 	gap: 2rem; /* Creates clean spacing between items without margin hacks */
-
-	a
 }
 
 .nav-links a {
