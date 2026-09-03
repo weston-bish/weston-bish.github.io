@@ -1,66 +1,64 @@
-/* Akasha Theme — cosmic, cool-toned, minimal */
-
 /* Palette + layout */
 :root {
-  --bg-1: #0a0b12;
-  --bg-2: #10121c;
+	--bg-1: #0a0b12;
+	--bg-2: #10121c;
 
-  --slab-1: #161927; /* header/content base */
-  --slab-2: #10121c; /* footer tone */
-  --text: #dfe3f0;
-  --muted: #8b93b3;
-  --accent: #8fb8ff;
-  --border: #2a2f42;
+	--slab-1: #161927; /* header/content base */
+	--slab-2: #10121c; /* footer tone */
+	--text: #dfe3f0;
+	--muted: #8b93b3;
+	--accent: #8fb8ff;
+	--border: #2a2f42;
 
-  --max-width: 880px;
+	--max-width: 880px;
 }
 
 html {
-  background-color: var(--bg-1);
+	background-color: var(--bg-1);
 
-  font-family: "IBM Plex Sans", system-ui, sans-serif;
-  font-size: 18px;
-  color: var(--text);
+	font-family: "IBM Plex Sans", system-ui, sans-serif;
+	font-size: 18px;
+	color: var(--text);
 }
 
 /* Vertical stacking */
 body {
-  margin: 0;
-  display: block;
+	margin: 0;
+	display: block;
 }
 
 
 /* Slabs */
 header, main {
-  margin: 0 auto;
+	margin: 0 auto;
 }
 
 main {
-  margin-top: 1.25rem;
-  max-width: var(--max-width);
+	margin-top: 1.25rem;
+	max-width: var(--max-width);
 }
 
 /* Header slab */
 
 /* Content slab */
 main {
-  padding: 2rem 1.2rem 3rem;
-  line-height: 1.6;
+	padding: 2rem 1.2rem 3rem;
+	line-height: 1.6;
 }
 
 /* Typography */
 h1, h2, h3 {
-  font-family: "IBM Plex Mono", monospace;
-  letter-spacing: 0.01em;
-  margin: 2rem 0 0.6rem;
-  font-weight: 600;
-  color: var(--text);
+	font-family: "IBM Plex Mono", monospace;
+	letter-spacing: 0.01em;
+	margin: 2rem 0 0.6rem;
+	font-weight: 600;
+	color: var(--text);
 }
 
 h1 {
-  font-size: 2.1rem;
-  border-bottom: 1px solid var(--border);
-  padding-bottom: 0.35rem;
+	font-size: 2.1rem;
+	border-bottom: 1px solid var(--border);
+	padding-bottom: 0.35rem;
 }
 h2 { font-size: 1.45rem; color: var(--accent); }
 h3 { font-size: 1.1rem; color: var(--muted); }
@@ -69,11 +67,11 @@ p { margin: 1rem 0; color: var(--text); }
 
 /* Links */
 a {
-  color: var(--accent);
-  font-weight: 500;
-  text-decoration: underline;
-  text-decoration-color: rgba(143,184,255,0.4);
-  text-underline-offset: 3px;
+	color: var(--accent);
+	font-weight: 500;
+	text-decoration: underline;
+	text-decoration-color: rgba(143,184,255,0.4);
+	text-underline-offset: 3px;
 }
 a:hover { text-decoration-color: var(--accent); }
 
@@ -83,64 +81,65 @@ li { margin: 0.4rem 0; }
 
 /* Images */
 img {
-  max-width: 100%;
-  margin: 1.1rem 0;
-  display: block;
-  border-radius: 6px;
-  box-shadow: inset 0 0 0 1px var(--border);
+	max-width: 100%;
+	margin: 1.1rem 0;
+	display: block;
+	border-radius: 6px;
+	box-shadow: inset 0 0 0 1px var(--border);
 }
 
 /* Code blocks */
 code {
-  background: var(--bg-2);
-  color: var(--accent);
-  padding: 0.15rem 0.35rem;
-  font-family: "JetBrains Mono", monospace;
-  border-radius: 3px;
-  box-shadow: inset 0 0 0 1px var(--border);
+	background: var(--bg-2);
+	color: var(--accent);
+	padding: 0.15rem 0.35rem;
+	font-family: "JetBrains Mono", monospace;
+	border-radius: 3px;
+	box-shadow: inset 0 0 0 1px var(--border);
 }
 
 pre {
-  background: var(--bg-2);
-  padding: 1rem;
-  overflow-x: auto;
-  border-radius: 6px;
-  box-shadow: inset 0 0 0 1px var(--border);
+	background: var(--bg-2);
+	padding: 1rem;
+	overflow-x: auto;
+	border-radius: 6px;
+	box-shadow: inset 0 0 0 1px var(--border);
 }
 pre code { background: none; box-shadow: none; }
 
 /* Labels / callouts */
 blockquote {
-  background: var(--bg-2);
-  color: var(--muted);
-  padding: 0.8rem 1rem;
-  margin: 1.2rem 0;
-  border-left: 2px solid var(--accent);
-  border-radius: 0 6px 6px 0;
-  box-shadow: inset 0 0 0 1px var(--border);
-  font-style: italic;
+	background: var(--bg-2);
+	color: var(--muted);
+	padding: 0.8rem 1rem;
+	margin: 1.2rem 0;
+	border-left: 2px solid var(--accent);
+	border-radius: 0 6px 6px 0;
+	box-shadow: inset 0 0 0 1px var(--border);
+	font-style: italic;
 }
 
 /* Mobile */
 @media (max-width: 720px) {
-  html { font-size: 17px; }
+	html { font-size: 17px; }
 }
 
 /* Reset default margins and list styles */
 .navbar {
-  background-color: #333;
-  padding: 1rem 2rem;
+	background-color: #333;
+	padding: 1rem 2rem;
 }
 
 .nav-links {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  
-  /* Flexbox magic */
-  display: flex;
-  justify-content: flex-start; /* Aligns links to the right. Use 'center' or 'flex-start' as needed */
-  align-items: center;
-  gap: 2rem; /* Creates clean spacing between items without margin hacks */
+	color: var(--text);
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	/* Flexbox magic */
+	display: flex;
+	justify-content: flex-start; /* Aligns links to the right. Use 'center' or 'flex-start' as needed */
+	align-items: center;
+	gap: 2rem; /* Creates clean spacing between items without margin hacks */
 }
 
