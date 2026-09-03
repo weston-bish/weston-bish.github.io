@@ -148,6 +148,6 @@ blockquote {
 	color: var(--text);
 }
 
-.highlight-link {
+.highlight-link a {
 	color: var(--accent);
 }
