@@ -102,7 +102,7 @@ def buildPosts():
 
             url = WEBSITE_URL + "/posts/" + base + ".html"
             newpost = Post(title, date, url, post_body)
-            postsList.append(newpost) # this is for RSS later
+            postsList.insert(0, newpost) # this is for RSS later
 
 # Constructs the homepage
 def buildIndex():
@@ -132,7 +132,7 @@ def buildIndex():
             shutil.copyfileobj(infile, outfile)
 
         # Copy intro_html
-        outfile.write(intro_html + "<h1>Posts</h1><ul>\n")
+        outfile.write(intro_html + "<h2>Posts</h2><ul>\n")
 
         # Copy list of posts
         for item in homepage_list:
