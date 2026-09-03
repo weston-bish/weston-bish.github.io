@@ -4,7 +4,6 @@
 :root {
   --bg-1: #0a0b12;
   --bg-2: #10121c;
-  --grid: rgba(143,184,255,0.10);
 
   --slab-1: #161927; /* header/content base */
   --slab-2: #10121c; /* footer tone */
@@ -17,12 +16,7 @@
 }
 
 html {
-  background:
-    radial-gradient(ellipse 800px 500px at 15% -10%, rgba(143,184,255,0.10), transparent 60%),
-    radial-gradient(ellipse 700px 500px at 90% 15%, rgba(203,177,133,0.05), transparent 55%),
-    radial-gradient(ellipse 900px 700px at 50% 120%, rgba(93,127,199,0.07), transparent 60%),
-    var(--bg-1);
-  background-attachment: fixed;
+  background-color: var(--bg-1);
 
   font-family: "IBM Plex Sans", system-ui, sans-serif;
   font-size: 18px;
@@ -35,46 +29,23 @@ body {
   display: block;
 }
 
-body::before {
-  content: "";
-  position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  pointer-events: none;
-  background-image:
-    radial-gradient(rgba(255,255,255,0.5) 1px, transparent 1px);
-  background-size: 3px 3px;
-  opacity: 0.25;
-  z-index: -1;
-}
 
 /* Slabs */
 header, main {
-  max-width: var(--max-width);
   margin: 0 auto;
-  box-shadow: inset 0 0 0 1px var(--border);
-  border-radius: 10px;
 }
 
 main {
   margin-top: 1.25rem;
+  max-width: var(--max-width);
 }
 
 /* Header slab */
-header {
-  background: linear-gradient(#181c2c, var(--slab-1));
-  padding: 1.1rem 1rem;
-  border-bottom: 1px solid var(--border);
-}
 
 /* Content slab */
 main {
-  background: linear-gradient(#141726, var(--slab-1));
   padding: 2rem 1.2rem 3rem;
   line-height: 1.6;
-  box-shadow:
-    inset 0 0 0 1px var(--border),
-    0 20px 40px rgba(0,0,0,0.5);
 }
 
 /* Typography */
@@ -154,3 +125,22 @@ blockquote {
 @media (max-width: 720px) {
   html { font-size: 17px; }
 }
+
+/* Reset default margins and list styles */
+.navbar {
+  background-color: #333;
+  padding: 1rem 2rem;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+  /* Flexbox magic */
+  display: flex;
+  justify-content: flex-start; /* Aligns links to the right. Use 'center' or 'flex-start' as needed */
+  align-items: center;
+  gap: 2rem; /* Creates clean spacing between items without margin hacks */
+}
+
