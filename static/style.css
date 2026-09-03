@@ -141,11 +141,17 @@ blockquote {
 	justify-content: flex-start; /* Aligns links to the right. Use 'center' or 'flex-start' as needed */
 	align-items: center;
 	gap: 2rem; /* Creates clean spacing between items without margin hacks */
+	width: 100%;
+}
+
+.nav-links li {
+	flex: 1;
+	text-align: center;
 }
 
 .nav-links a {
 	color: var(--text);
-	display: inline-block;
+	display: block;
     padding: 0.5rem 1rem;
     
     background-color: var(--bg-2);
