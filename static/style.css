@@ -143,3 +143,7 @@ blockquote {
 	gap: 2rem; /* Creates clean spacing between items without margin hacks */
 }
 
+.highlight-link {
+	color: var(--accent);
+	font-weight: bold;
+}
