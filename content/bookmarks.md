@@ -14,6 +14,7 @@
 - [World Monitor](https://www.worldmonitor.app)
 
 ## Software
+- [AirVPN](https://airvpn.org/)
 - [Breezy Weather](https://github.com/breezy-weather/breezy-weather)
 - [debian](https://www.debian.org/)
 - [F-Droid](https://f-droid.org/)
@@ -21,4 +22,6 @@
 - [GrapheneOS](https://grapheneos.org/)
 - [Jellyfin](https://jellyfin.org/)
 - [Kdenlive](https://kdenlive.org/)
+- [Obsidian](https://obsidian.md/)
 - [qBittorrent](https://www.qbittorrent.org/)
+- [Yet Another Media Server](https://yams.media/)

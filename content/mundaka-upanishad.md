@@ -1,4 +1,4 @@
-Mundaka Upanishad
+# Mundaka Upanishad
 
 Mundaka Upanishad
 Translated by Swami Gambhirananda
